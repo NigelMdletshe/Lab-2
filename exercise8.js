@@ -71,7 +71,7 @@ console.log(electives.indexOf({ // no element found (return -1)
 // Further illustration
 // Below, the empty objects' properties are not compared
 // their reference are compared, thus  false is returned
-console.log({} === {})
+// console.log({} === {})
 
 // Now, we compare equal object reference
 const object1 = {}
